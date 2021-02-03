@@ -1,0 +1,20 @@
+Package: autods
+Title: Automate Data Science Pipeline
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Akil",
+           family = "Elkamel",
+           role = c("aut", "cre"),
+           email = "akil.elkamel@gmail.com",
+           comment = c(ORCID = "0000-0002-2101-8117"))
+Description: autods is package that aims to automate the data science process known as OSEMN (Obtain, Scrab, Explore, Model, and Interpret) using a simple and general functions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    
+Imports: 
+    tidymodels
+    tidyverse
